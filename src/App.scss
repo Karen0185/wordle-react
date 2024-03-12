@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  background-color: #ebebeb;
+}
+
+.App {
+  
+  .container {
+    max-width: 440px;
+    width: 100%;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .logoText {
+    font-size: 88px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+  }
+}
