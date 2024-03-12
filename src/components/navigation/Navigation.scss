@@ -98,3 +98,25 @@
         right: -70px;
     }
 }
+
+@media screen and (max-width: 620px) {
+    .Navigation {
+        width: 65vw;
+        height: 56.5vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Navigation {
+        width: 55vw;
+        height: 65vh;
+
+        .send-word {
+            font-size: 24px;
+        }
+
+        .back-btn {
+            font-size: 14px;
+        }
+    }
+}

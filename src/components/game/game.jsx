@@ -139,7 +139,7 @@ const Game = () => {
         >
             <CSSTransition in={win} timeout={300} classNames='popup' unmountOnExit>
                 {
-                    <Popup playAgain={playAgain} setWin={setWin} word={secretWord}/>
+                    <Popup playAgain={playAgain} setSecretWord={setSecretWord} setWin={setWin} word={secretWord}/>
                 }
             </CSSTransition>
             <DrawGameField

@@ -29,3 +29,21 @@ html {
     margin-bottom: 120px;
   }
 }
+
+@media screen and (max-width: 620px) {
+  .App {
+    .logoText {
+      font-size: 58px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .App {
+    .logoText {
+      font-size: 48px;
+      margin-bottom: 80px;
+    }
+  }
+}

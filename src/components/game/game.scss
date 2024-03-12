@@ -55,3 +55,42 @@
         transform: scale(1);
     }
 }
+
+@media screen and (max-width: 620px) {
+    .Game {
+
+        .DrawGameField {
+
+            .letterBoxes {
+                grid-template-columns: repeat(5, 60px) !important;
+                grid-template-rows: repeat(5, 60px) !important;
+        
+                .letterBox {
+                    width: 60px;
+                    height: 60px;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Game {
+
+        align-items: flex-start;
+
+        .DrawGameField {
+
+            .letterBoxes {
+                grid-template-columns: repeat(5, 40px) !important;
+                grid-template-rows: repeat(5, 40px) !important;
+        
+                .letterBox {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}

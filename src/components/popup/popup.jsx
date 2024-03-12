@@ -1,9 +1,10 @@
 import Button from '../UI/Button';
 import './popup.scss'
 
-const Popup = ({playAgain, setWin, word}) => {
+const Popup = ({playAgain, setSecretWord, setWin, word}) => {
     
     const handleClick = () => {
+        setSecretWord('bajak')
         if (window.location.hash) {
             window.history.replaceState({}, document.title, window.location.pathname + window.location.search);
         }
